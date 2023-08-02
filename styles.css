@@ -70,6 +70,7 @@ span{
     width: 100%;
     padding: 20px;
     background-color: #191919;
+    /* transition: width 2s; */
 }
 .About img{
     height: auto;
@@ -114,25 +115,6 @@ span{
     align-items: center;
     justify-content: space-around;
     opacity: 70%;
-}
-
-.table{
-    opacity: 50%;
-}
-tr{
-    color: white;
-}
-
-
-
-.train{
-    background: black;
-}
-.he{
-    color: aliceblue;
-}
-ul{
-    color: aliceblue;
 }
 
 footer {
@@ -199,6 +181,34 @@ footer {
     padding: 100px 0px;
     background-color: #191919;
 }
+
+.panel-heading {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .panel{
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+
+  .job-experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+
+  ul{
+    color: #191919;
+  }
 
 
 
