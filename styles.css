@@ -15,25 +15,20 @@ body{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    background: url(./assests/pexels-nemuel-sereti-6424589.jpg);
+    background-size: cover;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
-  }
+    
+}
 
-ol li{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.about-left{
-    margin-bottom: 4rem;
-    height: 480px;
-    overflow: hidden;
-}
 .content{
     top: 50%;
     left: 8%;
@@ -42,15 +37,7 @@ ol li{
     padding: 55px ;
     display: block;   
 }
-
-body{
-    background: url(./assests/pexels-nemuel-sereti-6424589.jpg);
-    background-size: cover;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
+   
 section {
     padding: 2rem;
   }
@@ -70,51 +57,18 @@ span{
     width: 100%;
     padding: 20px;
     background-color: #191919;
-    /* transition: width 2s; */
+    
 }
 .About img{
     height: auto;
-    width: 430px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .About h2{
     color: white;
-}
-
-.about-text{
-    width: 550px;
-}
-
-.about-text h2{
-    color: white;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-.about-text h4{
-    letter-spacing:2px ;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-
-.about-text p{
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-
-.main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    opacity: 70%;
 }
 
 footer {
