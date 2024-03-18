@@ -57,13 +57,38 @@ span{
     width: 100%;
     padding: 20px;
     background-color: #191919;
+}
+.about-right {
+    text-align: center; 
+    padding: 10px; 
+    background-color: #333; 
+    border-radius: 5px; 
+    margin-left: auto;
+    flex: 1 1 auto;
+}
+
+.about-right h2 {
+    color: #fff; /* Change text color */
+    font-weight: bold; /* Use bold font */
+}
+
+.about-right p {
+    color: #ccc; /* Change text color */
+    font-style: italic; /* Use italic font */
+    
+}
+
+.about-left {
+    flex: 0 0 auto;
+    margin-right: 0px;
+    /* float: left; */
     
 }
 .About img{
     height: auto;
-    width: 400px;
+    max-width: 100%;
     border-radius: 50%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -164,5 +189,8 @@ footer {
     color: #191919;
   }
 
+  .card{
+    margin: 10px;
+  }
 
 
